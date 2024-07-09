@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+        
+            <div class="search">
+              <i class="bi bi-brightness-high-fill" id="toggleDark"></i> 
+              <input type="text" name="search" placeholder="Enter the city name">
+              <button class="button">
+              <i class="fas fa-search"></i>
+            </button>
+            </div>
+            <div class="weather">
+                
+                <img src="icons/icons8-cloud-100.png" class="icon">
+                <h1 class="temp">Temperature</h1>
+                <h2 class="cityname">city name</h2>
+            </div>
+            <div class="mini-container">
+                <div class="mini">
+                    <div class="mini-icon">
+                        <h3>Feels Like:</h3>
+                        <h3 class="Feelslike"></h3>
+                        
+                    </div>
+                </div>
+                <div class="mini">
+                    <div class="mini-icon">
+                        <h3>Max Temperature:</h3>
+                        <h3 class="maxt"></h3>
+            
+                    </div>
+                </div>
+                <div class="mini">
+                    <div class="mini-icon">
+                        <h3>Min Temperature:</h3>
+                        <h3 class="mint"></h3>
+         
+                    </div>
+                </div>
+                <div class="mini">
+                    <div class="mini-icon">
+                        <h3>Humidity:</h3>
+                        <h3 class="Humidity"></h3>
+                
+                    </div>
+                </div>
+                <div class="mini">
+                    <div class="mini-icon">
+                        <h3>Pressure:</h3>
+                        <h3 class="Pressure"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js">
+</script>
+</html>
+
+
+
